@@ -1,0 +1,205 @@
+name: udaan
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  otp_text_field: ^1.0.1
+  flutter_swiper: ^1.1.6
+  fdottedline: ^1.0.1 
+  permission_handler: ^5.0.1+1
+  image_picker: ^0.6.7+12
+  share: any
+  
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.3
+  lite_rolling_switch: ^0.1.1
+  intl: ^0.16.1
+  carousel_pro: ^1.0.0
+  material_design_icons_flutter: ^4.0.5755
+  tabbar: ^0.1.1
+  vertical_tabs: ^0.2.0
+
+  url_launcher: ^5.7.10
+  carousel_slider: ^2.3.1
+  
+  
+  
+  
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/order.jpg
+    - assets/home.jpg
+    - assets/splash.jpg
+    - assets/udaanicon.jpg
+    - assets/shopifyicon.png
+    - assets/mobile.jpg
+    
+    
+   
+    - assets/account/pro1.png
+    - assets/account/Eng.png
+    - assets/account/Hindi.png
+    - assets/account/Kannada.png
+    - assets/account/telugu.png
+    - assets/account/eg.png
+    - assets/account/Tamil.png
+    - assets/account/Bulb.png
+    - assets/account/Cloth.jpg
+    - assets/account/OpenBox.jpg
+    - assets/account/Phone.png
+    - assets/account/Plate.jpg
+    - assets/account/Shoe1.jpg
+    - assets/account/dot.jpg
+    - assets/account/delivery.jpg
+    - assets/account/pancard.jpg
+    - assets/account/invoice.jpg
+    - assets/account/Registration_certificate.png
+    - assets/account/selfi.jpg
+    - assets/account/shopBoards.jpg
+    - assets/account/Bill.jpg
+    - assets/account/AnnexureA.jpg
+    - assets/account/AnnexureB.jpg
+    - assets/account/CorrectImage.jpg
+    - assets/account/chevron_down.jpg
+    - assets/account/CorrectImage1.jpg
+    - assets/account/camera.jpg
+    - assets/account/cam.jpg
+    - assets/account/mens1.jpg
+    - assets/account/mens2.jpg
+    - assets/account/mens3.jpg
+    - assets/account/mens4.jpg
+    - assets/account/FromTheBrand.jpg
+    - assets/account/FashionQubes.jpg
+    - assets/account/percent.png
+    - assets/account/WomensShotPants.jpg
+    - assets/account/wonensT-shirts.jpg
+    - assets/account/mens5.jpg
+    - assets/account/mens6.jpg
+    - assets/account/mens7.jpg
+    - assets/account/mens8.jpg
+    - assets/account/girl1.jpg
+    - assets/account/mens9.jpg
+    - assets/account/AddMore.jpg
+    - assets/account/F1.png
+    - assets/account/IndianFlag.png
+    - assets/account/TomHiddle.jpg
+
+    - assets/FashionAccessories/Cap.jpg
+    - assets/FashionAccessories/Cap1.jpg
+    - assets/FashionAccessories/Watch.jpg
+    - assets/FashionAccessories/Belts.jpg
+    - assets/FashionAccessories/HairAccessories.jpg
+    - assets/FashionAccessories/BagsWallets.jpg
+    - assets/FashionAccessories/FashionJewellery.jpg
+    - assets/FashionAccessories/HairBand.jpg
+    - assets/FashionAccessories/MenBroach.jpg
+    - assets/FashionAccessories/MenJewellery.jpg
+    - assets/FashionAccessories/Sunglass.jpg
+    - assets/FashionAccessories/WistBands.jpg
+    - assets/FashionAccessories/WomenBracelet.jpg
+    - assets/FashionAccessories/Watch1.png
+    - assets/FashionAccessories/MensEarring.jpg
+    - assets/FashionAccessories/MenBracelet.jpg
+    - assets/FashionAccessories/MensRing.jpg
+    - assets/FashionAccessories/HairClip.jpg
+    - assets/FashionAccessories/HairJewellery.jpg
+    - assets/FashionAccessories/HairExtension.jpg
+    - assets/FashionAccessories/Backpack.jpg
+    - assets/FashionAccessories/Schoolbag.jpg
+    - assets/FashionAccessories/HandBag.jpg
+    - assets/FashionAccessories/Wallet.jpg
+    - assets/FashionAccessories/WomensEarring.jpg
+    - assets/FashionAccessories/Necklace.jpg
+    - assets/FashionAccessories/WomenBracelet.jpg
+
+    - assets/FashionAccessories/
+    - assets/FashionBazar/
+    - assets/VKTraders/
+    - assets/HindustanClothMills/
+    - assets/HomeFurnishing/
+    - assets/HomeFurnishing/HomeFurnishingMain/
+    - assets/HomeFurnishing/HomeFurnishingSub/
+    
+
+    
+    - assets/kyc/
+    - assets/kids/
+
+    - assets/Alert/bank.png
+    - assets/Alert/bell.jpg
+    - assets/Alert/return.jpg
+    - assets/Alert/udaanpay.jpg
+    - assets/Alert/udaanpay1.jpg
+    - assets/Alert/UdaanQR.jpg
+
+    - assets/homecloth/
+    - assets/homecloth/kids/
+    - assets/homecloth/kids/kidssub/
+    - assets/homecloth/fabric/
+    - assets/homecloth/women/
+    - assets/homecloth/men/
+    
+    - assets/Dresses/
+    - assets/homecloth/Bag/
+    - assets/
+    - assets/search/
+    - assets/fabric/
+    - assets/SellonPage/
+    
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  
+ 
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
